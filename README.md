@@ -1,0 +1,34 @@
+# 🐾 PetPals - Pet Boarding & Short-Term Experience Platform
+
+## 🌟 Project Overview
+
+PetPals is an innovative peer-to-peer (P2P) platform designed to connect 
+pet owners needing short-term boarding (1-8 weeks) with families who can offer loving care for that duration.
+
+### Core Value Proposition
+
+* **For Pet Owners :** Helps pet owners find families who can care for their pets for a short period
+                    when they are unable to do so due to short-term business trips or travel.
+                    The safety and comfort of their pets are of paramount importance.
+* **For Caregivers :** Allows animal lovers (those who cannot keep pets long-term or want to care for more animals)
+                    to experience the joy of caring for and interacting with animals.
+
+## ✨ Key Features
+
+The platform includes the following essential features:
+
+* **User Registration/Login:** Supports Google or Email sign-up and login.
+* **Find Pets:** Enables quick filtering by **type**, **fosterStartDate**, **fosterDuration**, and **location**.
+* **My Pets:** See all the pets user have uploaded. Change and edit the matching state of user's pet.
+* **Post A NEW Pet:** Allows pet owners to post pet profiles complete with pictures and detailed information.
+
+## 💻 Technology Stack
+
+We are building PetPals using a modern, type-safe full-stack architecture:
+
+| Component | Technology
+| :--- | :--- | :--- |
+| **Frontend** | React, TypeScript (TSX).
+| **Backend** | Node.js, Express.js.
+| **Styling** | CSS.
+| **Database** | Firebase.
