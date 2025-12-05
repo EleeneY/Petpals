@@ -25,10 +25,9 @@ The platform includes the following essential features:
 ## 💻 Technology Stack
 
 We are building PetPals using a modern, type-safe full-stack architecture:
-
-| Component | Technology
+| Component | Technology | Description |
 | :--- | :--- | :--- |
-| **Frontend** | React, TypeScript (TSX).
-| **Backend** | Node.js, Express.js.
-| **Styling** | CSS.
-| **Database** | Firebase.
+| **Frontend** | React, TypeScript (TSX) | Building the user interface and handling interactions. |
+| **Backend** | Node.js, Express.js | Managing API endpoints, business logic, and data access. |
+| **Styling** | CSS | For visual design and responsiveness. |
+| **Database** | Firebase | Storing all pet and user data. |
