@@ -59,9 +59,7 @@ const FindPetsPage = () => {
         }
     }, [filters]); 
 
-    // 🌟 修改：移除对 filters 的依赖，实现点击搜索
     useEffect(() => {
-        // 初始加载：只在组件挂载时调用一次
         fetchPets(); 
     }, []); 
 
@@ -73,7 +71,6 @@ const FindPetsPage = () => {
         }));
     };
     
-    // 🌟 新增：Search 按钮点击函数
     const handleSearchClick = () => {
         fetchPets();
     };
@@ -92,10 +89,8 @@ const FindPetsPage = () => {
     return (
         <div id="FindPets" className="page">
             <h2>Find Pets</h2>
-        
-            {/* 🌟 布局修改：find-pets-form 将作为单行 Flex 容器 */}
             <div className="find-pets-form single-row-layout">
-                {/* 🌟 Filter 1: Type */}
+                
                 <div className="filter-item">
                     <label htmlFor="pet-type">Type</label>
                     <select id="filter-type" value={filters.type} onChange={handleFilterChange}>
@@ -104,8 +99,7 @@ const FindPetsPage = () => {
                         <option value="Cat">Cat</option>
                     </select>
                 </div>
-                
-                {/* 🌟 Filter 2: Foster Start Date */}
+         
                 <div className="filter-item">
                     <label htmlFor="filter-fosterStartDate">Foster Start Date</label>
                     <input
@@ -116,7 +110,6 @@ const FindPetsPage = () => {
                     />
                 </div>
                 
-                {/* 🌟 Filter 3: Foster Duration */}
                 <div className="filter-item">
                     <label htmlFor="duration">Foster Duration (days)</label>
                     <input
@@ -128,7 +121,6 @@ const FindPetsPage = () => {
                     />
                 </div>
 
-                {/* 🌟 Filter 4: Location */}
                 <div className="filter-item">
                     <label htmlFor="location">Location</label>
                     <input
@@ -140,7 +132,6 @@ const FindPetsPage = () => {
                     />
                 </div>
                 
-                {/* 🌟 Search 按钮容器：使其垂直居中并与输入框对齐 */}
                 <div className="search-button-container-inline">
                     <button 
                         onClick={handleSearchClick} 
