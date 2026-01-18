@@ -15,8 +15,6 @@ pet owners needing short-term boarding (1-8 weeks) with families who can offer l
 
 ## ✨ Key Features
 
-The platform includes the following essential features:
-
 * **User Registration/Login:** Supports Google or Email sign-up and login.
 * **Find Pets:** Enables quick filtering by **type**, **fosterStartDate**, **fosterDuration**, and **location**.
 * **My Pets:** See all the pets user have uploaded. Change and edit the matching state of user's pet.
